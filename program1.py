@@ -13,10 +13,8 @@ class Solution(object):
                     return False
         return not stack
 
-exp = input("Enter the expression : ")
-# creating an instance of the Solution class
+exp = input()
 solution = Solution()
-# call the isValid method with a string argument that will be taken as input from user
 result = solution.isValid(exp)
 print(result)
         

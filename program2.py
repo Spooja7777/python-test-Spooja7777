@@ -14,8 +14,7 @@ class Solution():
                 i += 1
         return result
 
-inputv = input("Enter the roman : ")
+inputv = input()
 solution = Solution()
-
 result = solution.romanToInt(inputv)
 print(result)
